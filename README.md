@@ -2,6 +2,7 @@
 
 ## Linear Regression to Predict MPG
 ![linear_regression](https://github.com/ggalguera/MechaCar_Statistical_Analysis/blob/main/linear_regression.png)
+
 From the analysis we can conclude that the vehicle_length and ground_clearance have P values lower then 0.05 so they provided a non-random amount of variance to the mpg values in the dataset. The slope of the linear model is not considered to be zero because the p-value of the F-statistic (5.35e-11) is much less than 0.05, indicating that at least one of the coefficients is not zero. For this case, the R-squared value of 0.7149 means that about 71.49% of the variance in the mpg variable can be explained by the other variables in the model (vehicle_length, vehicle_weight, spoiler_angle, ground_clearance, and AWD). This suggests that the model has a relatively good fit to the data, but it is not a perfect fit.
 It is possible that other variables or interactions between variables might also be important in predicting mpg, and that these are not included in the current model. Additionally, even though the R-squared value is relatively high, it is important to check the residuals and make sure the assumptions of the linear model are met before interpreting the model.
 
